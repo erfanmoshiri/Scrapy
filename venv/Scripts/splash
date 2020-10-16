@@ -1,0 +1,4 @@
+#!E:\99-00 (first semester)\bazyabi\Project 1 - Scrapy\venv\Scripts\python.exe
+
+from splash.server import main
+main()
