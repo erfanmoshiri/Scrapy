@@ -20,7 +20,7 @@ HTTPERROR_ALLOWED_CODES  =[404]
 
 # Obey robots.txt rules
 # ROBOTSTXT_OBEY = True
-ROBOTSTXT_OBEY = False
+ROBOTSTXT_OBEY = True
 LOG_LEVEL = 'DEBUG'
 COOKIES_ENABLED = True
 USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1944.0 Safari/537.36'
@@ -105,3 +105,4 @@ DOWNLOADER_MIDDLEWARES = {
 HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
 DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
 
+SPLASH_URL = 'http://localhost:8050/'
