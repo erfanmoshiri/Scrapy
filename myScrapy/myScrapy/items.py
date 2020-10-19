@@ -24,8 +24,8 @@ class WebcrawlerItem(scrapy.Item):
 
     open = scrapy.Field()
     theMost = scrapy.Field()
-    theLast = scrapy.Field()
-    numberOfRequests = scrapy.Field()
+    theLeast = scrapy.Field()
+    numberOfDemands = scrapy.Field()
 
     demandPrice = scrapy.Field()
     supplyPrice = scrapy.Field()
@@ -35,3 +35,10 @@ class WebcrawlerItem(scrapy.Item):
     actualPurchaseVolume = scrapy.Field()
     eps = scrapy.Field()
     ratio = scrapy.Field()
+
+    symbolURL = scrapy.Field()
+    legalVolume = scrapy.Field()
+    actualVolume = scrapy.Field()
+    epsProfit = scrapy.Field()
+    roomPE = scrapy.Field()
+

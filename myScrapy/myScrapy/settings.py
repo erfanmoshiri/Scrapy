@@ -10,7 +10,7 @@
 BOT_NAME = 'myScrapy'
 
 SPIDER_MODULES = ['myScrapy.spiders']
-NEWSPIDER_MODULE = 'myScrapy.spiders'
+NEWSPIDER_MODULE = 'myScrapy.spiders' 
 HTTPERROR_ALLOWED_CODES  =[404]
 
 
